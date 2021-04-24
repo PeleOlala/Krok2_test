@@ -6,7 +6,7 @@ import random
 import simplejson
 
 Tests = simplejson.load(open('test.json', 'r'))
-
+# Tests =[{'q':'', 'a':[]}]
 def send_test(m_id):
     curindx=random.randint(0, len(Tests)-1)
     key=telebot.types.InlineKeyboardMarkup()
