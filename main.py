@@ -21,7 +21,7 @@ def send_test(m_id):
     bot.send_message(m_id, text=Tests[curindx]['q'], reply_markup=key, disable_web_page_preview=True)
 
 
-bot = telebot.TeleBot('1727288350:AAGOHCIiJpeMCmvFVgE6l_AzjDDJWy2rvlE')
+bot = telebot.TeleBot('')
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query(call):
