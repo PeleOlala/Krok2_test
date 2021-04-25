@@ -1,4 +1,4 @@
-
+__author__ PeleOlala
 import telebot
 
 import random
